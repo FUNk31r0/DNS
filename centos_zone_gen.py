@@ -16,7 +16,7 @@ try:
       IN     NS     dns1.{}.
       IN     NS     dns2.{}.
 
-      IN     MX     20     mail2.{}.com.br.
+      IN     MX     20     mail2.{}.
 
              IN     A       {}
 
