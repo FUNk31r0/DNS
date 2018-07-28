@@ -5,9 +5,9 @@ for line in arq:
         line = line.replace("\n", "")
         line = line.replace("\r", "")
         print("""
-<VirtualHost *:80>
+<VirtualHost {}:80>
     DocumentRoot "/var/www/html/{}"
     ServerName {}
     Redirect / https://{}
 </VirtualHost>
-""".format(line, line, line))
+""".format(line, line, line, line))
